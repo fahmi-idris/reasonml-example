@@ -1,0 +1,24 @@
+{
+  "name": "github-repository-search",
+  "version": "1.0.0",
+  "description": "ReasonML Example",
+  "license": "MIT",
+  "scripts": {
+    "start": "yarn watch & parcel public/index.html",
+    "build": "parcel build public/index.html",
+    "watch": "bsb -make-world -w"
+  },
+  "dependencies": {
+    "@glennsl/bs-json": "^5.0.1",
+    "bs-fetch": "^0.5.0",
+    "reason-react": "^0.7.0",
+    "remotedata-re": "^0.2.1"
+  },
+  "devDependencies": {
+    "autoprefixer": "^7.2.5",
+    "bs-platform": "^5.0.6",
+    "bsb-js": "^1.1.7",
+    "cssnano": "^3.10.0",
+    "parcel-bundler": "^1.9.7"
+  }
+}
